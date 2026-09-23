@@ -1,66 +1,77 @@
-# Ajay Singh Raghuwanshi — Engineering Portfolio
+# Ajay Singh Raghuwanshi
 
-An Awwwards-caliber, production-ready software engineering portfolio. Dark,
-kinetic, and performance-obsessed — built from scratch with no templates.
+I build full-stack web apps — from client-facing sites to blockchain experiments — with a focus on clean, working products rather than half-finished demos.
 
-## Stack
-
-- **Next.js 15** (App Router, React Server Components)
-- **React 19** + **TypeScript** (strict)
-- **Tailwind CSS** design system
-- **Framer Motion** for choreographed animation
-- **Lenis** for momentum smooth scrolling
-- Hand-written **Canvas** + **SVG** visuals (network graph, tech ecosystem) —
-  chosen over heavy 3D libraries to keep the bundle lean and hit top Lighthouse
-  scores while staying original.
-
-## Highlights
-
-- Full-screen kinetic hero with an animated engineering-network backdrop
-- Interactive, hoverable tech-stack graph (SVG, keyboard accessible)
-- Flagship project cards with 3D tilt, architecture pipelines, and live metrics
-- Git-commit-styled experience timeline
-- Animated competitive-programming counters
-- Terminal-inspired contact section with magnetic buttons
-- Custom cursor, scroll reveals, parallax, glassmorphism, grain overlay
-- Complete SEO: metadata, Open Graph image, JSON-LD, sitemap, robots, manifest
-- Accessible: semantic HTML, skip link, focus states, reduced-motion support
-
-## Develop
-
-```bash
-npm install
-npm run dev
-```
-
-## Verify
-
-```bash
-npm run typecheck   # no TypeScript errors
-npm run lint        # no ESLint errors
-npm run build       # production build
-```
-
-## Content
-
-All copy, links, projects, and data live in a single source of truth:
-[`src/lib/site.ts`](src/lib/site.ts). Every fact, metric, link, and date is
-taken directly from the resume — nothing is invented.
-
-### Remaining TODOs (need Ajay's input)
-
-- [ ] Set `NEXT_PUBLIC_SITE_URL` (e.g. in Vercel project env settings) to the
-      real production domain — it drives canonical URL, OG tags, sitemap,
-      and robots. Falls back to `http://localhost:3000` until set.
-- [ ] MedLinkPro — no GitHub button is shown; add the exact repo URL in
-      `src/lib/site.ts` to enable one.
-- [ ] DigiFrills — add a GitHub button if a public repository exists.
-- [ ] Econest Global — confirm the build period label if you want a date shown.
-
-## Deploy
-
-Zero-config on [Vercel](https://vercel.com). Push the repo, import it, done.
+Currently, shipping real projects with React/Next.js on the frontend and Node.js/PostgreSQL on the backend, while exploring Solana and Solidity on the side. I also practice DSA and competitive programming on LeetCode and Codeforces, and I'm learning AI/ML — several of my projects (GeoRakshak's risk scoring, MedInsight-AI) use AI systems as part of the product itself.
 
 ---
 
-Designed & engineered by Ajay Singh Raghuwanshi.
+## Projects
+
+### [GeoRakshak](https://github.com/ajayzyx/GeoRakshak)
+AI-powered landslide risk monitoring and early-warning decision-support system for India's North Eastern Region — built for Smart India Hackathon 2026 (Problem Statement SIH26001). Combines terrain, satellite, rainfall, and sensor data into a GIS risk dashboard with tiered, human-approved public warnings and offline-first field reporting.
+
+`Python` · `FastAPI` · `PostGIS` · `React` · `Android`
+
+### [MedInsight-AI](https://github.com/ajayzyx/MedInsight-AI)
+Healthcare-focused AI project exploring how medical data can be analyzed to surface useful insights for providers.
+
+`TypeScript`
+
+### [CarbonCreditTrading](https://github.com/ajayzyx/CarbonCreditTrading)
+A platform concept for trading carbon credits, covering listings, transactions, and tracking between buyers and sellers.
+
+`JavaScript` · `Node.js`
+
+### [MedLink](https://github.com/ajayzyx/MedLink)
+A healthcare connectivity app concept linking patients and providers.
+
+`JavaScript`
+
+### [frontend-tribe-ai-startup-landing-page-template](https://github.com/ajayzyx/frontend-tribe-ai-startup-landing-page-template)
+Landing page template for AI startups — responsive layout, reusable sections, and clean component structure built for fast customization.
+
+`TypeScript` · `React` · `Next.js` · `Tailwind CSS`
+
+### [metacrafters-eth-proof](https://github.com/ajayzyx/metacrafters-eth-proof)
+Ethereum smart contract project built while learning Solidity fundamentals and on-chain proof patterns.
+
+`Solidity`
+
+### [solana-module2-assignment-main](https://github.com/ajayzyx/solana-module2-assignment-main)
+Solana program assignment covering core concepts of building and deploying on the Solana blockchain.
+
+`TypeScript`
+
+### [Portfolio](https://github.com/ajayzyx/Portfolio)
+My personal developer portfolio — projects, stack, and contact info in one place.
+
+`TypeScript`
+
+---
+
+## Stack
+
+```
+Languages     TypeScript · JavaScript (ES6+) · Python · C++ · Solidity
+Frontend      React · Next.js · Tailwind CSS
+Backend       Node.js · Express.js
+Databases     PostgreSQL · MongoDB
+Cloud         Docker · AWS · Firebase
+Blockchain    Solana · Solidity
+Tooling       Git · GitHub
+```
+
+---
+
+## Currently
+
+- Building full-stack projects with React/Next.js on the frontend and Node.js/PostgreSQL on the backend
+- Exploring Web3 development — Solidity and Solana smart contracts
+- Learning AI/ML and applying it in projects like GeoRakshak and MedInsight-AI
+- Sharpening DSA through LeetCode and Codeforces
+- Open to Full Stack Developer roles — feel free to reach out if you're hiring
+
+---
+
+[Portfolio](https://www.ajayzyx.tech/) · [LinkedIn](https://www.linkedin.com/in/ajay-singh-raghuwanshi-516625270/) · [LeetCode](https://leetcode.com/ajayzyx) · [Codeforces](https://codeforces.com/profile/ajayzyx) · [Email](ajay1c4002@gmail.com)
